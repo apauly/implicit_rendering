@@ -1,0 +1,137 @@
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2144)
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 2150)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/_form.html.erb (Duration: 0.5ms | Allocations: 227)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 2307)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 292)
+Completed 200 OK in 6ms (Views: 6.4ms | Allocations: 2347)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/_form.html.erb (Duration: 0.2ms | Allocations: 227)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 2307)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 292)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 2346)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 292)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 2347)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 292)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 2345)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.2ms | Allocations: 292)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 2346)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.2ms | Allocations: 292)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 2346)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#index as HTML
+Completed 406 Not Acceptable in 0ms (Allocations: 255)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.2ms | Allocations: 292)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 2346)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  Rendered users/index.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 315)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 294)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 2362)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  Rendered users/index.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 315)
+Processing by UsersController#create as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2279)
+Processing by UsersController#create as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2282)
+Processing by UsersController#create as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2282)
+Processing by UsersController#create as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 296)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 2350)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.2ms | Allocations: 294)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 2362)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  Rendered users/index.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 315)
+Processing by UsersController#create as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 294)
+Completed 200 OK in 2ms (Views: 2.3ms | Allocations: 2362)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  Rendered users/index.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 315)
+Processing by UsersController#create as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 166)
+Processing by UsersController#new as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.3ms | Allocations: 294)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 2362)
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  Rendered users/index.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 315)
+Processing by UsersController#create as HTML
+  Rendering users/_form.html.erb
+  Rendered users/_form.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 166)
