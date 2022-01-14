@@ -13,6 +13,7 @@ module ImplicitRendering
 
   def self.prepended(base)
     base.extend ClassMethods
+    base.attr_reader :action_before_implicit_render
   end
 
   def default_render
@@ -25,6 +26,7 @@ module ImplicitRendering
 
   def render(options={})
     if options.is_a?(Hash) && (template_name = self.class.implicit_render_mapping&.dig(options[:action].to_s))
+      @action_before_implicit_render = options[:action]
       options[:action] = template_name
     end
     super

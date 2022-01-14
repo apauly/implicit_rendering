@@ -28,6 +28,7 @@ RSpec.describe UsersController do
   context 'POST #create' do
     it 'handles explicit render calls' do
       post :create
+      expect(controller.action_before_implicit_render).to eq :new
       expect(response.body).to include 'Hello from _form.html.erb'
     end
   end
