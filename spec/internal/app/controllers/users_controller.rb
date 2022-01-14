@@ -3,7 +3,8 @@ class UsersController < ActionController::Base
   prepend ::ImplicitRendering
   implicit_rendering(
     new: '_form',
-    edit: '_form'
+    edit: '_form',
+    something: '_form'
   )
 
   def new
@@ -17,6 +18,9 @@ class UsersController < ActionController::Base
   end
 
   def index
+  end
+
+  def something
   end
 
 end

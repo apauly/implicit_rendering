@@ -33,6 +33,8 @@ module ImplicitRendering
   end
 
   def perform_implicit_rendering?(template_name)
+    return false if template_exists?(action_name.to_s, _prefixes, variants: request.variant)
+
     template_name.present? &&
       self.class.implicit_render_formats.any? {|format| request.format == format }
   end

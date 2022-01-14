@@ -25,6 +25,13 @@ RSpec.describe UsersController do
     end
   end
 
+  context 'GET #something' do
+    it 'renders existing template' do
+      get :something, params: { id: 5 }
+      expect(response.body).to include 'Hello from something.html.erb'
+    end
+  end
+
   context 'POST #create' do
     it 'handles explicit render calls' do
       post :create
