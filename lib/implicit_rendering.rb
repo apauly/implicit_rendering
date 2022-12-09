@@ -17,22 +17,25 @@ module ImplicitRendering
   end
 
   def default_render
-    template_name = self.class.implicit_render_mapping&.dig(action_name)
+    override_template_name = self.class.implicit_render_mapping&.dig(action_name)
 
-    return super unless perform_implicit_rendering?(template_name)
+    return super unless perform_implicit_rendering?(action_name, override_template_name)
 
-    render template_name
+    render override_template_name
   end
 
   def render(options={})
-    if options.is_a?(Hash) && (template_name = self.class.implicit_render_mapping&.dig(options[:action].to_s))
+    if options.is_a?(Hash) &&
+      (override_template_name = self.class.implicit_render_mapping&.dig(options[:action].to_s)) &&
+      perform_implicit_rendering?(options[:action], override_template_name)
+
       @action_before_implicit_render = options[:action]
-      options[:action] = template_name
+      options[:action] = override_template_name
     end
     super
   end
 
-  def perform_implicit_rendering?(template_name)
+  def perform_implicit_rendering?(action_name, template_name)
     return false if template_exists?(action_name.to_s, _prefixes, variants: request.variant)
 
     template_name.present? &&
