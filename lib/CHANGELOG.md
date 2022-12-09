@@ -1,3 +1,7 @@
+## ImplicitRendering 0.1.4
+
+* Fix bug for existing templates in combination with explicit `render` call
+
 ## ImplicitRendering 0.1.3
 
 * Fix bug for existing templates
